@@ -1,0 +1,29 @@
+#!/bin/bash
+set -eu
+
+name=$1
+
+if [[ -z $name ]]; then
+    echo "Usage: $0 NAME" >&2
+    exit 1
+fi
+
+path="src/${name}.rs"
+
+if [[ -f "$path" ]]; then
+    echo "'$path' already exists. Doing nothing."
+    exit 2
+fi
+
+cat >> Cargo.toml <<HERE
+
+[[bin]]
+name = "$name"
+path = "$path"
+HERE
+
+cat > "$path" <<HERE
+fn main() {
+    println!("hello world!");
+}
+HERE
