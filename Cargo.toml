@@ -1,0 +1,24 @@
+[package]
+name = "hackerrank"
+version = "0.1.0"
+authors = ["Mike Cooper <mythmon@gmail.com>"]
+
+[[bin]]
+name = "solve-me-first"
+path = "src/solve-me-first.rs"
+
+[[bin]]
+name = "solve-me-second"
+path = "src/solve-me-second.rs"
+
+[[bin]]
+name = "simple-array-sum"
+path = "src/simple-array-sum.rs"
+
+[[bin]]
+name = "a-very-large-sum"
+path = "src/a-very-large-sum.rs"
+
+[[bin]]
+name = "diagnol-difference"
+path = "src/diagnol-difference.rs"
