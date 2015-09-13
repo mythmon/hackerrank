@@ -45,3 +45,7 @@ path = "src/algorithms/warmup/time-conversion.rs"
 [[bin]]
 name = "library-fine"
 path = "src/algorithms/warmup/library-fine.rs"
+
+[[bin]]
+name = "extra-long-factorials"
+path = "src/algorithms/warmup/extra-long-factorials.rs"
