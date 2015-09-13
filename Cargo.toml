@@ -8,27 +8,27 @@ expensive_tests = []
 
 [[bin]]
 name = "solve-me-first"
-path = "src/solve-me-first.rs"
+path = "src/algorithms/warmup/solve-me-first.rs"
 
 [[bin]]
 name = "solve-me-second"
-path = "src/solve-me-second.rs"
+path = "src/algorithms/warmup/solve-me-second.rs"
 
 [[bin]]
 name = "simple-array-sum"
-path = "src/simple-array-sum.rs"
+path = "src/algorithms/warmup/simple-array-sum.rs"
 
 [[bin]]
 name = "a-very-large-sum"
-path = "src/a-very-large-sum.rs"
+path = "src/algorithms/warmup/a-very-large-sum.rs"
 
 [[bin]]
 name = "diagnol-difference"
-path = "src/diagnol-difference.rs"
+path = "src/algorithms/warmup/diagnol-difference.rs"
 
 [[bin]]
 name = "fibonacci-finding-easy"
-path = "src/fibonacci-finding-easy.rs"
+path = "src/mathematics/number-theory/fibonacci-finding-easy.rs"
 
 [[bin]]
 name = "plus-minus"
