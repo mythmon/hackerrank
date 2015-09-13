@@ -2,7 +2,6 @@
 extern crate test;
 
 use std::io;
-use std::iter::Iterator;
 
 static MODULO: i64 = 1_000_000_007;
 
