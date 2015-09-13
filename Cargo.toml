@@ -29,3 +29,7 @@ path = "src/diagnol-difference.rs"
 [[bin]]
 name = "fibonacci-finding-easy"
 path = "src/fibonacci-finding-easy.rs"
+
+[[bin]]
+name = "plus-minus"
+path = "src/plus-minus.rs"
