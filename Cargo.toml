@@ -32,4 +32,8 @@ path = "src/mathematics/number-theory/fibonacci-finding-easy.rs"
 
 [[bin]]
 name = "plus-minus"
-path = "src/plus-minus.rs"
+path = "src/algorithms/warmup/plus-minus.rs"
+
+[[bin]]
+name = "staircase"
+path = "src/algorithms/warmup/staircase.rs"
