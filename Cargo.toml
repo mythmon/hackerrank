@@ -3,6 +3,9 @@ name = "hackerrank"
 version = "0.1.0"
 authors = ["Mike Cooper <mythmon@gmail.com>"]
 
+[features]
+expensive_tests = []
+
 [[bin]]
 name = "solve-me-first"
 path = "src/solve-me-first.rs"
@@ -22,3 +25,7 @@ path = "src/a-very-large-sum.rs"
 [[bin]]
 name = "diagnol-difference"
 path = "src/diagnol-difference.rs"
+
+[[bin]]
+name = "fibonacci-finding-easy"
+path = "src/fibonacci-finding-easy.rs"
