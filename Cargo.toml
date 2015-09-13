@@ -49,3 +49,7 @@ path = "src/algorithms/warmup/library-fine.rs"
 [[bin]]
 name = "extra-long-factorials"
 path = "src/algorithms/warmup/extra-long-factorials.rs"
+
+[[bin]]
+name = "tutorial-intro"
+path = "src/algorithms/sorting/tutorial-intro.rs"
