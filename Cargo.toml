@@ -53,3 +53,7 @@ path = "src/algorithms/warmup/extra-long-factorials.rs"
 [[bin]]
 name = "tutorial-intro"
 path = "src/algorithms/sorting/tutorial-intro.rs"
+
+[[bin]]
+name = "saveprincess"
+path = "src/ai/bot-building/saveprincess.rs"
