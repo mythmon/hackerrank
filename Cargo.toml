@@ -57,3 +57,7 @@ path = "src/algorithms/sorting/tutorial-intro.rs"
 [[bin]]
 name = "saveprincess"
 path = "src/ai/bot-building/saveprincess.rs"
+
+[[bin]]
+name = "utopian-tree"
+path = "src/algorithms/implementation/utopian-tree.rs"
