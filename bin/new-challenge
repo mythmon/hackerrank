@@ -1,12 +1,12 @@
 #!/bin/bash
 set -eu
 
-name=$1
-
-if [[ -z $name ]]; then
+if [[ $# -lt 1 ]]; then
     echo "Usage: $0 NAME" >&2
     exit 1
 fi
+
+name=$1
 
 category=$(dirname ${name})
 name=$(basename ${name})
@@ -17,17 +17,20 @@ if [[ -f "$path" ]]; then
     exit 2
 fi
 
+mkdir -p "src/${category}"
+
+cat > "$path" <<HERE
+// https://www.hackerrank.com/challenges/$name
+fn main() {
+    println!("hello world!");
+}
+HERE
+
 cat >> Cargo.toml <<HERE
 
 [[bin]]
 name = "$name"
 path = "$path"
-HERE
-
-cat > "$path" <<HERE
-fn main() {
-    println!("hello world!");
-}
 HERE
 
 atom "${path}"
